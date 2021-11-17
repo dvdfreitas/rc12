@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Document;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/rc12', function () {
+    return view('rc12');
+});
+
+Route::get('/acerca_de_mim', function () {
+    return view('acerca');
+});
+
+Route::get('/documents', function () {
+    $documents = Document::all();
+    return view('documents', ['documents' => $documents]);
+});
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
