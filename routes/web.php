@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/livewire', function () {
+    return view('livewire');
+});
+
 Route::get('/rc12', function () {
     return view('rc12');
 });
