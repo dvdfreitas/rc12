@@ -26,6 +26,11 @@ Route::get('/rc12', function () {
     return view('rc12');
 });
 
+Route::get('/eventos/criar', function () {
+    return view('events.create');
+});
+
+
 Route::get('/acerca_de_mim', function () {
     return view('acerca');
 });
