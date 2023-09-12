@@ -51,3 +51,25 @@ Ligar o Apache e o MySQL.
 php artisan serve
 ```
 
+# Laravel
+
+## Base de dados
+
+### Criar uma nova tabela
+
+```bash
+php artisan make:model -mcs
+```
+
+Opções:
+-m = migration
+-c = controller
+-s = seeder
+
+
+### Refazer a base de dados
+
+```bash
+php artisan migrate:fresh
+```
+
