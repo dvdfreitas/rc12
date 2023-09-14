@@ -1,3 +1,11 @@
+# Sofware necessário
+
+- Git
+- NPM
+- Composer
+- Visual Studio Code
+- XAMPP
+
 # Instalação
 
 ## Laravel

@@ -6,15 +6,15 @@
 
 **Hora:** 10:30 às 12:20
 
-Apresentação da disciplina.
-Conversa sobre as PAPs e sobre o projecto "Página de CeD".
-Instalação do software necessário: Git, VS Code, Laravel, NPM e Composer.
+- Apresentação da disciplina.
+- Conversa sobre as PAPs e sobre o projecto "Página de CeD".
+- Instalação do software necessário: Git, VS Code, Laravel, NPM e Composer.
 
 ## Aulas 3 e 4
 
-**Data:** 
+**Data:** 14 de setembro
 
-**Hora:** 
+**Hora:** 15:20 às 17:15
 
 - Definição do projecto "Página de CeD".
 - Criação do projecto Laravel.
@@ -25,7 +25,7 @@ Instalação do software necessário: Git, VS Code, Laravel, NPM e Composer.
 - Ter criado o projeto, com a base de dados e o login funcional;
 - Criar uma página nova chamada "sobre".
 
-** Responsáveis: **
+**Responsáveis:**
 
 - Emanuel Botelho
 - Francisco Carvalho 
