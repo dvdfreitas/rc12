@@ -73,3 +73,8 @@ Opções:
 php artisan migrate:fresh
 ```
 
+# Visual Studio Code
+
+```
+Ctrl + P - Procurar um ficheiro
+```
