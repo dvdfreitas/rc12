@@ -86,3 +86,7 @@ php artisan migrate:fresh
 ```
 Ctrl + P - Procurar um ficheiro
 ```
+
+# Criação e validação de um formulário
+
+Cross-site request forgery

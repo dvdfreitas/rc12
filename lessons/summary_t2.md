@@ -24,3 +24,10 @@ Conversa sobre as PAPs e sobre o projecto "Sexto sentido".
 **Objetivos:**
 - Ter criado o projeto, com a base de dados e o login funcional;
 - Iniciar a modificação da base de dados (por exemplo, criando a tabela de zonas onde serão realizadas as corridas).
+
+## Aulas 5 e 6
+
+- Criação e validação de um formulário.
+
+**Objetivos:**
+- Criação de um formulário;

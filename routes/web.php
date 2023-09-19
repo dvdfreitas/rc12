@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Race;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +18,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/corridas/criar', function () {
+    return view('races.create');
+});
+
+Route::post('/corridas/store', function (Request $request) {
+    $name = $request->input('name');
+    $password = $request->input('password');
+
+    Race::create([
+        'name' => $name,
+        'password' => $password,
+    ]);
+});
+
 
 Route::middleware([
     'auth:sanctum',
