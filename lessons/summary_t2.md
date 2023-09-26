@@ -31,3 +31,20 @@ Conversa sobre as PAPs e sobre o projecto "Sexto sentido".
 
 **Objetivos:**
 - Criação de um formulário;
+
+## Aulas 
+
+**Data:** 26 de setembro
+
+**Sumários:**
+- Extração de componentes
+- POST 
+- Verbos
+
+**Alunos:** 
+
+- Tomás
+
+- Rocha
+
+

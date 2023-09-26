@@ -4,7 +4,39 @@
 - NPM
 - Composer
 - Visual Studio Code
-- XAMPP
+- XAMPP (PHP, MySQL, Apache)
+
+## XAMPP
+
+## Git
+
+É um sistema de controlo de versões que permite colaborar e manter um histórico de alterações.
+
+Permite: 
+- Tracking code changes
+- Tracking who made changes
+- Coding collaboration
+
+Como verificar se o GIT está bem instalado:
+
+```bash
+git --version
+```
+
+### Informação adicional
+
+Recomenda-se o segiuinte tutorial:
+
+- https://www.w3schools.com/git/
+
+
+## PHP
+
+Como verificar se o PHP está bem instalado:
+
+```bash
+php -v
+```
 
 # Instalação
 
@@ -90,3 +122,34 @@ Ctrl + P - Procurar um ficheiro
 # Criação e validação de um formulário
 
 Cross-site request forgery
+
+# Erros
+
+Base table or view already exists: 1050 Table 'sessions' already exists 
+
+```bash
+php artisan migrate:reset 
+```
+
+Step 1
+
+Copy
+php artisan migrate:reset
+Step 2
+
+Go to your database using PHPmyadmin (or similar) and delete all remaining tables - including the migration table.
+
+Step 3
+
+Copy
+php artisan migrate
+
+---
+
+Verificar se a tabela "sessions" não estão duplicados.
+
+# Criação de componentes
+
+```bash
+php artisan make:component forms.input_text
+```
