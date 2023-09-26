@@ -153,3 +153,62 @@ Verificar se a tabela "sessions" não estão duplicados.
 ```bash
 php artisan make:component forms.input_text
 ```
+
+# Utilização de "modelos"
+
+Usar como base
+<x-guestLayout>
+    ...
+
+    <h1>Página da Escola</h1>
+
+    A melhor página da Internet!
+
+    ...
+</x-guestLayout>
+
+
+
+## TailwindCSS 
+
+Executar
+
+```bash
+npm run dev
+```
+
+# Exercícios
+
+1. Criar um componente para o menu de navegação.
+
+*Exemplo*
+
+```bash
+php artisan make:component menu
+```
+
+2. Acrescentar o componente no Guest Layout (guest.blade.php)
+
+Colocar <x-menu> como, por exemplo em:
+
+```html
+<body>
+    <x-menu/>
+    <div class="font-sans text-gray-900 antialiased">
+        {{ $slot }}
+    </div>
+
+    @livewireScripts
+</body>
+```
+
+2. Criar um componente para o rodapé e acrescentar no Guest Layout.
+
+
+3. Utilizar o TailwindCSS para melhorar o aspeto da página.
+
+[TailwindCSS](https://https://tailwindcss.com/)
+
+
+
+https://tailwindcss.com/
